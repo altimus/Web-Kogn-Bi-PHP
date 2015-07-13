@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Classify | Classify ads HTML Template</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/star-rating.css">
+
+
+
+
+
+</head>
+<body>
+  <?php
+      include_once 'inclusions/tete.php';
+      //include_once 'inclusions/search_bar.php';
+  ?>
+
+    <!--main sub page heading-->
+    <section id="page-head">
+        <div class="container">
+            <div class="row col-md-12">
+                <div class="page-heading">
+                    <h1>PUBLIER UNE ANNONCE</h1>
+                    <h4>Facile et Simple</h4>
+                </div>
+            </div>
+        </div>
+    </section><!--end main page heading-->
+    <!--Detail -->
+    <section id="detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="ads-detail">
+                        <div class="account-overview">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="form">
+                                        <form method="post">
+                                            <div class="col-sm-6 input-pad">
+                                                <span class="fa fa-money form-control-feedback"></span>
+                                                <input class="form-control" type="text" name="name" placeholder="John Doe">
+
+                                            </div>
+                                            <div class="col-sm-6 padding-control">
+                                                <span class="fa fa-map-marker form-control-feedback"></span>
+                                                <input class="form-control" type="email" name="email" placeholder="Email Address">
+                                            </div>
+                                            <div class="col-sm-6 input-pad">
+                                                <span class="fa fa-map-marker form-control-feedback"></span>
+                                                <input class="form-control" type="text" name="name" placeholder="John Doe">
+
+                                            </div>
+                                            <div class="col-sm-6 padding-control">
+                                                <span class="fa fa-tags form-control-feedback"></span>
+                                                <input class="form-control" type="email" name="email" placeholder="Email Address">
+                                            </div>
+                                            <div class="col-sm-12 padding-control">
+                                                <textarea class="form-control"></textarea>
+                                            </div>
+
+
+                                            <div class="clearfix"></div>
+
+
+                                            <div class="col-sm-12 padding-control">
+                                                <span class="fa fa-image form-control-feedback"></span>
+                                                <label class="cabinet">
+                                                    <input type="file" class="file" name="photo1">
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-12 padding-control">
+                                                <span class="fa fa-image form-control-feedback"></span>
+                                                <label class="cabinet">
+                                                    <input type="file" class="file" name="photo2">
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-12 padding-control">
+                                                <span class="fa fa-image form-control-feedback"></span>
+                                                <label class="cabinet">
+                                                    <input type="file" class="file" name="photo3">
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-12 padding-control">
+                                                <span class="fa fa-image form-control-feedback"></span>
+                                                <label class="cabinet">
+                                                    <input type="file" class="file" name="photo4">
+                                                </label>
+                                            </div>
+
+                                            <div class="col-sm-12">
+                                                <span class="ad-type">Type d'annonce:</span>
+                                                <input type="radio" name="type" value="Offre">
+                                                <label>Offre</label>
+                                                <input type="radio" name="type" value="Demande">
+                                                <label>Demande</label>
+                                            </div>
+
+                                            <input type="submit" value="Publier l'annonce" name="submit">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="sidebar">
+
+                        <!--advertisement-->
+                        <div class="side-widget">
+                            <h4 class="inner-heading">Publicité</h4>
+                            <div class="side-widget-adv">
+                                <a href="#"><img src="http://placehold.it/350x250" alt="google ads"></a>
+                            </div>
+                        </div><!--end advertisement widget-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--end details-->
+    <?php
+        include_once 'inclusions/pied.php';
+    ?>
+
+    <!--End Footer-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/default.js"></script>
+    <script src="layerslider/js/greensock.js"></script>
+    <script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+    <script src="layerslider/js/layerslider.transitions.js"></script>
+
+</body>
+</html>

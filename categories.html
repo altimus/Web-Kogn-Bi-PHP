@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kogn Bi, vos annonces à portée de main</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="layerslider/css/layerslider.css">
+
+
+</head>
+<body>
+
+    <!--Start Header section-->
+    <section id="header">
+        <header>
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 responsive-width-top">
+                            <div class="social">
+                                <div class="social-icon">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 responsive-width-top">
+                            <div class="links text-right">
+                                <a href="edit-ad.html">Publier une annonce</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end top bar-->
+
+            <!--start menu-bar-->
+            <div class="menu-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.png" alt="classify"></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <nav role="navigation" class="navbar navbar-default">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <!-- Collection of nav links and other content for toggling -->
+                                <div id="navbarCollapse" class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active dropdown">
+                                            <a class="dropdown-toggle" href="index.html">Home</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="home-page-with-map.html">Home Page v1</a></li>
+                                                <li><a href="home-page-without-slider.html">Home Page v2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="fullwidth-page-sidebar.html">About</a></li>
+                                        <li><a href="pricing-plan.html">Pricing Plan</a></li>
+                                        <li><a href="subcategory.html">Categories</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">Features</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="faq.html">FAQ</a></li>
+                                                <li><a href="notification.html">Notification</a></li>
+                                                <li><a href="fullwidth-page.html">Full width Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">Other</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="detail-page.html">Detail Page</a></li>
+                                                <li><a href="edit-ad.html">Edit Ad</a></li>
+                                                <li><a href="edit-profile.html">Edit Profile</a></li>
+                                                <li><a href="profile.html">Profile</a></li>
+                                                <li><a href="profile-second.html">Profile v2</a></li>
+                                                <li><a href="reset.html">Rset Password</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                            </nav><!--end nav-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--end menu-bar-->
+        </header>
+    </section><!--End Header section-->
+    <!--main sub page heading-->
+    <section id="page-head" class="margin-control">
+        <div class="container">
+            <div class="row col-md-12">
+                <div class="page-heading">
+                    <h1>Catégories</h1>
+                    <h4>Il y a 18 catégories</h4>
+                </div>
+            </div>
+        </div>
+    </section><!--end main page heading-->
+    <!--search bar-->
+    <section id="searchBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form method="post">
+                        <input class="keyword" type="text" name="keyword" placeholder="Mots-clés...">
+                        <div class="label">
+                            <select class="select">
+                                <option>Catégorie</option>
+                                <option>House</option>
+                                <option>Electronics</option>
+                            </select>
+                        </div>
+                        <div class="label">
+                            <select class="select">
+                                <option>Ville</option>
+                                <option>Ville A</option>
+                                <option>Ville B</option>
+                            </select>
+                        </div>
+                        <div class="label">
+                            <select class="select">
+                                <option>Quartier</option>
+                                <option>Quartier A</option>
+                                <option>Quartier B</option>
+                            </select>
+                        </div>
+                        <a href="#" class="location">
+                            <i class="fa fa fa-location-arrow "></i>
+                        </a>
+                        <div class="location-tip">
+                            <span class="location-range">499 km</span>
+                        </div>
+                        <button type="submit" name="submit" class="search-btn">Chercher</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> <!--end search bar-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="advertise">
+                <a href="#"><img src="http://placehold.it/960x90" alt="ad"> </a>
+            </div>
+        </div>
+    </div>
+    <!--Category-->
+    <section id="categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="main-heading text-center">
+                        <h2>CATEGORIES</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="category">
+                        <div class="category-icon">
+                            <i class="fa fa-briefcase fa-2x"></i>
+                        </div>
+                        <h4><a href="#">JOBS</a></h4>
+                        <p><a href="#">Design & Development Jobs  ( 20 )</a></p>
+                        <p><a href="#"> Marketing Jobs  ( 09 )</a></p>
+                        <p><a href="#"> Accounts & Finance Jobs  ( 15 )</a></p>
+                        <p><a href="#"> Cleaning Jobs  ( 0 )</a></p>
+                        <p><a href="#"> Others  ( 160 )</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category">
+                        <div class="category-icon">
+                            <i class="fa fa-home fa-2x"></i>
+                        </div>
+                        <h4><a href="#">REAL ESTATE</a></h4>
+                        <p><a href="#">Design & Development Jobs  ( 20 )</a></p>
+                        <p><a href="#"> Marketing Jobs  ( 09 )</a></p>
+                        <p><a href="#"> Accounts & Finance Jobs  ( 15 )</a></p>
+                        <p><a href="#"> Cleaning Jobs  ( 0 )</a></p>
+                        <p><a href="#"> Others  ( 160 )</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category">
+                        <div class="category-icon">
+                            <i class="fa fa-truck fa-2x"></i>
+                        </div>
+                        <h4><a href="#">VEHICLES</a></h4>
+                        <p><a href="#">Design & Development Jobs  ( 20 )</a></p>
+                        <p><a href="#"> Marketing Jobs  ( 09 )</a></p>
+                        <p><a href="#"> Accounts & Finance Jobs  ( 15 )</a></p>
+                        <p><a href="#"> Cleaning Jobs  ( 0 )</a></p>
+                        <p><a href="#"> Others  ( 160 )</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category">
+                        <div class="category-icon">
+                            <i class="fa fa-lightbulb-o fa-2x"></i>
+                        </div>
+                        <h4><a href="#">ELECTRONICS</a></h4>
+                        <p><a href="#">Design & Development Jobs  ( 20 )</a></p>
+                        <p><a href="#"> Marketing Jobs  ( 09 )</a></p>
+                        <p><a href="#"> Accounts & Finance Jobs  ( 15 )</a></p>
+                        <p><a href="#"> Cleaning Jobs  ( 0 )</a></p>
+                        <p><a href="#"> Others  ( 160 )</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category">
+                        <div class="category-icon">
+                            <i class="fa fa-github fa-2x"></i>
+                        </div>
+                        <h4><a href="#">PETS</a></h4>
+                        <p><a href="#">Design & Development Jobs  ( 20 )</a></p>
+                        <p><a href="#"> Marketing Jobs  ( 09 )</a></p>
+                        <p><a href="#"> Accounts & Finance Jobs  ( 15 )</a></p>
+                        <p><a href="#"> Cleaning Jobs  ( 0 )</a></p>
+                        <p><a href="#"> Others  ( 160 )</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category">
+                        <div class="category-icon">
+                            <i class="fa fa-wrench fa-2x"></i>
+                        </div>
+                        <h4><a href="#">SERVICES</a></h4>
+                        <p><a href="#">Design & Development Jobs  ( 20 )</a></p>
+                        <p><a href="#"> Marketing Jobs  ( 09 )</a></p>
+                        <p><a href="#"> Accounts & Finance Jobs  ( 15 )</a></p>
+                        <p><a href="#"> Cleaning Jobs  ( 0 )</a></p>
+                        <p><a href="#"> Others  ( 160 )</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category">
+                        <div class="category-icon">
+                            <i class="fa fa-female fa-2x"></i>
+                        </div>
+                        <h4><a href="#">FASHION</a></h4>
+                        <p><a href="#">Design & Development Jobs  ( 20 )</a></p>
+                        <p><a href="#"> Marketing Jobs  ( 09 )</a></p>
+                        <p><a href="#"> Accounts & Finance Jobs  ( 15 )</a></p>
+                        <p><a href="#"> Cleaning Jobs  ( 0 )</a></p>
+                        <p><a href="#"> Others  ( 160 )</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category">
+                        <div class="category-icon">
+                            <i class="fa fa-heart fa-2x"></i>
+                        </div>
+                        <h4><a href="#">MATRIMONIALS</a></h4>
+                        <p><a href="#">Design & Development Jobs  ( 20 )</a></p>
+                        <p><a href="#"> Marketing Jobs  ( 09 )</a></p>
+                        <p><a href="#"> Accounts & Finance Jobs  ( 15 )</a></p>
+                        <p><a href="#"> Cleaning Jobs  ( 0 )</a></p>
+                        <p><a href="#"> Others  ( 160 )</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--End Category-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="advertise">
+                <a href="#"><img src="http://placehold.it/960x90" alt="ad"> </a>
+            </div>
+        </div>
+    </div>
+    <!--Premium Advertisement-->
+    <section id="premium">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="main-heading text-center">
+                        <h2>PREMIUM ADVERTISEMENT</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="owl-carousel">
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Old Car</a></div>
+                        <a href="#" class="item-hover"><span>$199</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Expensive Car</a></div>
+                        <a href="#" class="item-hover"><span>$299</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Antique things for sale</a></div>
+                        <a href="#" class="item-hover"><span>$499</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Creative Tattos</a></div>
+                        <a href="#" class="item-hover"><span>$99</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Old Car</a></div>
+                        <a href="#" class="item-hover"><span>$199</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Old Car</a></div>
+                        <a href="#" class="item-hover"><span>$199</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Expensive Car</a></div>
+                        <a href="#" class="item-hover"><span>$299</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Antique things for sale</a></div>
+                        <a href="#" class="item-hover"><span>$499</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Creative Tattos</a></div>
+                        <a href="#" class="item-hover"><span>$99</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="http://placehold.it/291x250" alt="carousel"></a>
+                        <div class="item-title"><a href="#">Old Car</a></div>
+                        <a href="#" class="item-hover"><span>$199</span></a>
+                    </div>
+                </div><!--end carousel-->
+            </div>
+        </div>
+    </section><!--End Premium Advertisement-->
+    <!--Footer-->
+    <section id="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6">
+                        <div class="widget">
+                            <h4>A PROPOS</h4>
+                            <p>Lorem ipsum dolor sit amet sectetuer esl adipiscing elit sed diam nonummy nibhi euismod tincidunt ut <span class="col">laoreet dolore</span> amet magna aliquam erat volutpat. </p>
+                            <p>Ut wisi enim ad minim veniam quis dest nostrud exerci tation ullamcorper norme
+                                suscipit lobortis commodo consequat.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="widget">
+                            <h4>NEWSLETTER</h4>
+                            <p class="sign">Lorem ipsum dolor sit amet sectetuer in adipiscing elit sed diam...</p>
+                            <p class="sign">S'inscrire à notre newsletter !</p>
+                            <form method="post">
+                                <input type="email" name="email" placeholder="Votre adresse email">
+                                <input type="submit" name="submit" value="S'inscrire">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright text-center">
+                            <p>Kogn Bi, Tous droits réservés - 2015</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+        </footer>
+    </section>
+    <!--End Footer-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/default.js"></script>
+    <script src="layerslider/js/greensock.js"></script>
+    <script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+    <script src="layerslider/js/layerslider.transitions.js"></script>
+
+
+
+</body>
+</html>
