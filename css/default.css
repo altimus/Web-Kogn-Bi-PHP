@@ -1125,7 +1125,7 @@ label.cabinet input.file {
     cursor: pointer;
 }
 label.cabinet::before{
-    content: "submit your image here";
+    content: "Joindre une image";
     position: absolute !important;
     top: 12px !important;
     left: 50px !important;

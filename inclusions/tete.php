@@ -30,7 +30,7 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="logo">
-                                <a href="index.html"><img src="images/logo.png" alt="Kogn Bi"></a>
+                                <a href="index.php"><img src="images/logo.png" alt="Kogn Bi"></a>
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -51,23 +51,24 @@
                                         <li class="dropdown">
                                           <a class="dropdown-toggle" href="categories.php">Categories</a>
                                           <ul class="dropdown-menu sub-menu">
-                                              <li><a href="sous_categorie.php?num=1">A Vendre</a></li>
-                                              <li><a href="sous_categorie.php?num=2">Auto</a></li>
-                                              <li><a href="sous_categorie.php?num=3">Divertissement</a></li>
-                                              <li><a href="sous_categorie.php?num=4">Education</a></li>
-                                              <li><a href="sous_categorie.php?num=5">Evénement</a></li>
-                                              <li><a href="sous_categorie.php?num=6">Hotels</a></li>
-                                              <li><a href="sous_categorie.php?num=7">Immobilier</a></li>
-                                              <li><a href="sous_categorie.php?num=8">Marché</a></li>
-                                              <li><a href="sous_categorie.php?num=9">Religion</a></li>
-                                              <li><a href="sous_categorie.php?num=10">Restaurant</a></li>
-                                              <li><a href="sous_categorie.php?num=11">Romance</a></li>
-                                              <li><a href="sous_categorie.php?num=12">Santé</a></li>
-                                              <li><a href="sous_categorie.php?num=13">Service</a></li>
-                                              <li><a href="sous_categorie.php?num=14">Sport</a></li>
-                                              <li><a href="sous_categorie.php?num=15">Transport</a></li>
-                                              <li><a href="sous_categorie.php?num=16">Travail</a></li>
-                                              <li><a href="sous_categorie.php?num=17">Urgence</a></li>
+                                              <li><a href="sous_categories.php?num=2">A Vendre</a></li>
+                                              <li><a href="sous_categories.php?num=13">Auto</a></li>
+                                              <li><a href="sous_categories.php?num=17">Divertissement</a></li>
+                                              <li><a href="sous_categories.php?num=14">Education</a></li>
+                                              <li><a href="sous_categories.php?num=6">Evénement</a></li>
+                                              <li><a href="sous_categories.php?num=9">Hotels</a></li>
+                                              <li><a href="sous_categories.php?num=1">Immobilier</a></li>
+                                              <li><a href="sous_categories.php?num=12">Marché</a></li>
+                                              <li><a href="sous_categories.php?num=7">Religion</a></li>
+                                              <li><a href="sous_categories.php?num=8">Restaurant</a></li>
+                                              <li><a href="sous_categories.php?num=5">Romance</a></li>
+                                              <li><a href="sous_categories.php?num=10">Santé</a></li>
+                                              <li><a href="sous_categories.php?num=4">Service</a></li>
+                                              <li><a href="sous_categories.php?num=15">Shopping</a></li>
+                                              <li><a href="sous_categories.php?num=16">Sport</a></li>
+                                              <li><a href="sous_categories.php?num=11">Transport</a></li>
+                                              <li><a href="sous_categories.php?num=3">Travail</a></li>
+                                              <li><a href="sous_categorie.php?num=18">Urgence</a></li>
                                           </ul></li>
                                       <!--  <li class="dropdown">
                                             <a class="dropdown-toggle" href="#">Features</a>
@@ -89,8 +90,8 @@
                                             </ul>
                                         </li>
                                       -->
-                                        <li><a href="fullwidth-page-sidebar.html">A propos</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="apropos.php">A propos</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
 
